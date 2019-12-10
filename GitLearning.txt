@@ -1,0 +1,42 @@
+crate floder in your windows machine
+git init   ---> enable git folder in which you can add project.
+create file with python.script code.
+git remote add origin  https://
+git remote add origin https://github.com/Sama0011/new_repository.git
+
+here origin refers to the remote address URL 
+
+"push" is the commnad  -->   puth files from local repository to Remote repository"
+
+push orgin -u master  
+ above command push the files into the remote repository.
+
+push origin -u "branch name"  ---> in this context branch name can be one repository.
+===================================================
+Clone remote repository  to local  floder and make code changes and perform below steps.
+
+mkdir git clone https://github.com/Sama0011/new_repository.git
+cd clone_repo_sada_test
+project copied into the folder  called  clone_repo_sada_test
+
+vi sada_file.txt  --- made some changes to the files, to see if any changes reflected post push command
+
+git add --all
+above command push the chnages to the staging.
+git commit -m "add meaningful commens for tracebility"
+
+Then you can directly push to the remote repository  or maintain a local repository.
+git push -u origin master   (here master is source one and origin is remote URL)
+
+when to use the FORK in the Github  and git merge.
+
+
+Pushing to Your Remotes
+--> git push <remote> <branch>
+--> git remote show origin
+---> Renaming and Removing Remotes
+
+
+
+
+
