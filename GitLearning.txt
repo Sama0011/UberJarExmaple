@@ -13,7 +13,7 @@ push orgin -u master
 
 push origin -u "branch name"  ---> in this context branch name can be one repository.
 ===================================================
-Clone remote repository  to local  floder and make code changes and perform below steps.
+Clone remote repository to local floder and make code changes and perform below steps.
 
 mkdir git clone https://github.com/Sama0011/new_repository.git
 cd clone_repo_sada_test
@@ -35,6 +35,26 @@ Pushing to Your Remotes
 --> git push <remote> <branch>
 --> git remote show origin
 ---> Renaming and Removing Remotes
+
+
+before this set the remote repo which means sama0011 -- one developer can connect to the multiple repos.
+that is depending on developer working on repos.( multiple projects then possibility of having multiple repos)
+
+
+git branch creation :
+git checkout -b gitlearncode
+git checkout -b <branch Name>
+
+git add --all
+git commit -m "comment should make sense"
+git checkout -b gitlearncode
+git fetch gitlearncode
+
+add tags to branch --
+git tag -a "v1.0" -m "initial version"
+git push origin v1.5
+
+
 
 
 
